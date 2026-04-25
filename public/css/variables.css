@@ -1,0 +1,82 @@
+/* ============================================================
+   public/css/variables.css
+   Variables globales — Paleta Pantone DGETI
+   ============================================================ */
+
+:root {
+  /* ── Paleta Pantone (imagen de referencia) ── */
+  --pantone-7421:  #621132;   /* Granate oscuro — primario principal */
+  --pantone-7420:  #9D2449;   /* Vino intenso — primario claro       */
+  --pantone-504:   #4E232E;   /* Vino oscuro — dark                  */
+  --pantone-490:   #56242A;   /* Marrón vino — variante oscura       */
+  --pantone-465:   #B38E5D;   /* Dorado cálido — acento              */
+  --pantone-468:   #D4C19C;   /* Beige dorado — acento claro         */
+
+  /* ── Semántica de colores ── */
+  --color-primary:          var(--pantone-7421);
+  --color-primary-hover:    var(--pantone-7420);
+  --color-primary-dark:     var(--pantone-504);
+  --color-primary-deeper:   var(--pantone-490);
+  --color-accent:           var(--pantone-465);
+  --color-accent-light:     var(--pantone-468);
+
+  /* ── Neutros ── */
+  --color-white:       #FFFFFF;
+  --color-off-white:   #FAF8F5;
+  --color-surface:     #F5F0EC;
+  --color-border:      #E6DDD6;
+  --color-border-dark: #C8B8B0;
+  --color-text:        #231318;
+  --color-text-mid:    #5A3D43;
+  --color-text-muted:  #937A7F;
+
+  /* ── Semántica de estados ── */
+  --color-success:     #1E7A42;
+  --color-success-bg:  #EDF7F1;
+  --color-warning:     #8A5C00;
+  --color-warning-bg:  #FFF8EC;
+  --color-error:       #C0182B;
+  --color-error-bg:    #FDEEF0;
+  --color-info:        #0F5FA8;
+  --color-info-bg:     #EAF3FF;
+
+  /* ── Sombras ── */
+  --shadow-xs:  0 1px 3px rgba(98,17,50,0.08);
+  --shadow-sm:  0 2px 8px rgba(98,17,50,0.10);
+  --shadow-md:  0 6px 20px rgba(98,17,50,0.14);
+  --shadow-lg:  0 16px 40px rgba(98,17,50,0.18);
+  --shadow-xl:  0 32px 64px rgba(98,17,50,0.22);
+
+  /* ── Tipografía ── */
+  --font-sans:    'Montserrat', system-ui, sans-serif;
+  --font-serif:   'Lora', Georgia, serif;
+
+  /* ── Espaciado ── */
+  --space-1:  4px;
+  --space-2:  8px;
+  --space-3:  12px;
+  --space-4:  16px;
+  --space-5:  20px;
+  --space-6:  24px;
+  --space-8:  32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* ── Radios ── */
+  --radius-sm:  6px;
+  --radius-md:  12px;
+  --radius-lg:  20px;
+  --radius-xl:  28px;
+  --radius-full: 9999px;
+
+  /* ── Layout ── */
+  --sidebar-width:   250px;
+  --topbar-height:   60px;
+  --content-max:     1200px;
+
+  /* ── Transiciones ── */
+  --ease:       cubic-bezier(.4, 0, .2, 1);
+  --transition: .24s var(--ease);
+  --transition-slow: .45s var(--ease);
+}
